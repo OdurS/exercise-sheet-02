@@ -10,3 +10,4 @@ public final class HomeworkMysteriousHamsterGameApp {
 		game.doRun();
 	}
 }
+//er führt einen genauen ablauf von Dingen aus, bei dem er immer wieder sagt, das eine operation ausgefhürt werden soll, dann diese ausführt(sie ist vorgefährtigt). Das ganze Programm hat meiner meinung nach keinen zusammenhängenden Sinn. 

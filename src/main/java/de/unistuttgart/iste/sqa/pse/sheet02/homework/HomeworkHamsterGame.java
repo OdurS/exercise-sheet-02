@@ -38,16 +38,87 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 		paule.write("I do not know how to continue:'(");
 
 		// Move to the second grain
-		// TODO:implement
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
 
 		// Pick up the second grain
-		// TODO:implement
+		paule.pickGrain();
 
 		// Add further steps (comment + code) to collect all grains!
-		// TODO:implement
 
-		// Put down all grains in the cave
-		// TODO:implement
+		//läuft zur 3ten Nuss
+		paule.turnLeft();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+
+		//nimmt nuss auf
+		paule.pickGrain();
+
+		//läuft zu den letzten nüssen
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//hebt 3 nüsse auf
+		paule.pickGrain();
+		paule.pickGrain();
+		paule.pickGrain();
+
+		//läuft zur hölle
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//theoretisch die eine Nuss aufheben, damit er alle hat
+		paule.pickGrain();
+
+		//alle Nüsse hinlegen
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
 
 	}
 }
