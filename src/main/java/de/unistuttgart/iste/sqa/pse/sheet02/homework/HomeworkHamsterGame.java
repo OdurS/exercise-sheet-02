@@ -1,5 +1,5 @@
 package de.unistuttgart.iste.sqa.pse.sheet02.homework;
-//lokdsjflkdsaflöksadfl
+
 /**
  * Describe the class HomeworkHamsterGame here.
  *
