@@ -24,14 +24,14 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Please describe this method here.
+	 * der Hamster dreht sich nach links
 	 */
 	void doSomething1() {
 		hamster.turnLeft();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * der Hamsterl läuft einmal und gibt dann an wieviel schritte er schon gemacht hat
 	 */
 	void doSomething2() {
 		hamster.move();
@@ -40,7 +40,7 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Der Hamster dreht sich um 180 Grad
 	 */
 	void doSomething3() {
 		hamster.turnLeft();
@@ -48,7 +48,7 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Der Hamster dreht sich nach rechts
 	 */
 	void doSomething4() {
 		hamster.turnLeft();
@@ -57,35 +57,35 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Gibt die anzahl der bisher gelaufenen Schritte aus/returnt sie
 	 */
 	int doSomething5() {
 		return stepCounter;
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Gibt die Anzahl gelaufener Schritte als Text aus
 	 */
 	void doSomething6() {
 		hamster.write(stepCounter.toString());
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Hebt ein Gain auf
 	 */
 	void doSomething7() {
 		hamster.pickGrain();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * gibt den Text"I'm done" aus
 	 */
 	void doSomething8() {
 		hamster.write("I'm done! :)");
 	}
 
 	/**
-	 * Please describe this method here.
+	 *Läuft so lange vorwehrts und versucht ein Gain aufzuheben, bis sein Mund nichtmehr leer ist, er ein Gain hat, läuft bis zum nächsten Gain
 	 */
 	void doSomething9() {
 		hamster.move();
