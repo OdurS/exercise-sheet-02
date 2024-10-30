@@ -30,3 +30,13 @@ public abstract class InternalHomeworkMysteriousHamsterGame extends InspectableS
 
 	protected final MysteriousHamster mysteriousPaule = new MysteriousHamster(paule);
 }
+//AUfgabe 1 machen Hamstersimulator und Objekte PDF
+//simpleHamsterGame
+//paule, Location, ist auf dem Teretory
+
+//Aufgabe 2 Let’s Move´.java, 2 tes von oben als Java extrahieren
+
+//Aufgabe 3 Der mysteriöse Hamster als Java das unterste extrahieren
+//a als PDF Es werden vorgefertigte befehle ausgeführt und dabei gezählt, wieoft der Hamster gelaufen ist.
+
+//fragen, ob wir einfach ganzes Programm extrahieren können
